@@ -4,7 +4,6 @@ O medo do crime e da violência é uma preocupação generalizada em muitas comu
 ## Alunos integrantes da equipe
 
 * Luiz Gustavo Fagundes Teixeira
-* Erica Lucia dos Santos
 * Emanoel Gonçalves Maia
 * Heleno Vasconcelos Rodrigues
 * Othavio Rodrigues Nunes Santos
