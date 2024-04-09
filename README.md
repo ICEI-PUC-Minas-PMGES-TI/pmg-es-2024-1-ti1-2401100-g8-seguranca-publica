@@ -1,4 +1,4 @@
-# Segurança Pública
+# ACROS
 Atualmente nos centros urbanos, medo do crime,da violência, a ausênncia de policiamento e falta de infraestrutura adequada é uma preocupação generalizada em muitas regiões. Dito isso percebemos que devido a enorme zona de ocupação populacional muitas das vezes ororgãos de garantia do bem estar social não conseguem atender todas as demandas. Portanto nossa equipe desenvolverá um softaware que buscará reportar em escalas macro e micro as solicitações de um uma determinada parcela da sociedade como também de um único indivíduo, de modo que as solicitações sejam de viés benéfico a melhora da qualidade de vida e vivência dos cidadãos. Buscaremos com nossa implemnetação web disponibilar uma espécie de rede social onde os usuários poderam realizar denuncias de diversos assuntos inseridos na esfera da Segurança Pública. 
 
 ## Alunos integrantes da equipe
@@ -10,9 +10,9 @@ Atualmente nos centros urbanos, medo do crime,da violência, a ausênncia de pol
 
 ## Professores responsáveis
 
-* Simone Alves Nogueira
 * Diego Augusto de Faria Barros
 * Danilo Boechat Seufitelli
+* Simone Alves Nogueira
 
 ## Instruções de utilização
 
