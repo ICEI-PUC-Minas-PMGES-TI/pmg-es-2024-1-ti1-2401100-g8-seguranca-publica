@@ -1,11 +1,11 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ARGOS
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ENGENHARIA DE SOFTWARE
 
 ## Participantes
 
