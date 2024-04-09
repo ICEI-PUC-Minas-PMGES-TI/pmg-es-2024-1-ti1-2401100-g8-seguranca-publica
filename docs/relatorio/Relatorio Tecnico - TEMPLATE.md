@@ -12,7 +12,7 @@ ENGENHARIA DE SOFTWARE
 - Emanoel Gonçalves Maia
 - Heleno Vasconcelos Rodrigues
 - Otávio Rodrigues Nunes Santos
-
+- Gabriel Assis
 # Estrutura do Documento
 
 - [Informações do Projeto](#informações-do-projeto)
