@@ -51,54 +51,20 @@ ENGENHARIA DE SOFTWARE
 # Introdução
 
 ## Problema
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
+> As metrópoles frequentemente enfrentam desafios significativos em termos de segurança pública devido à alta densidade populacional, diversidade, desigualdade socioeconômica e complexidade dos problemas relacionados ao crime. Portanto, as prefeituras podem não ser capazes de atender a toda a demanda por si só.Atualmente nos centros urbanos, o medo do crime, da violência, da ausência de policiamento e da falta de infraestrutura adequada é uma preocupação generalizada em muitas regiões. Dito isso, percebemos que devido à enorme zona de ocupação populacional, muitas vezes os orgãos de garantia do bem estar social não atendem a todas as demandas. 
 ## Objetivos
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
+##Objetivos Gerais
+> Como obejtivo fundamental nossa proposta é comlementar o sistema de gerenciamento de quailidade da segurança e infraestrutura oferecida aos cidadãos. 
+##Obejativos Específicos
+> Temos como obetivo auxiliar os orgãos governamentais no gerencias da qualidade de vida nas cidades.
+> Trasmitir segurança para os cidadãos através do sistema de denuncias compartilhadas e mapeamento em função das ocorências.
+> Contribuir com os agentes da lei no momento de investigação de ocorrências com padrão de ocorrências.
+> Ampliar os olhares para além das zonas metropolitanas no quesito de invisibilidade reginal.
+> Reduzir zonas esteriotipadas negativamente por indices atuais que as caracterizem da maneira correta. 
 ## Justificativa
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
+>O projeto parte da visão que existem espaços geográficos na cidades que não necessariamente são invisiveis aos olhos dos orgãos competentes que manteem sua integridade, mas sim zonas que possuem seus detalhes que faram dela extremamente mais agradáveis aos seus usuáros caso as solitações feita pelos mesmos sejam atendidas. 
+>Buscando atender os pilares mais importantes da sociedade, questões como infraestrutura, segurança patrimonial e saúde pública seram os pontos a serem atacados para que nossa aplicação atinja a base da Segurança Pública. O ponto mais importânte se destaca no momento em que percebe-se a necessidade da implementação de um maneira onde os usuários poderam realizar reportes muitas das vezes em tempo real de situações cotidianas que podem apresentar baixo grau de gravidade consideradas de modo singular, no entanto a percepção de um evento que esta sendo reportado com frenquência, na sua esfera da Segurança Pública, significa não só a necessidade de correção para o conforto daquela parcela social, como tmabém pode ser usado para entender complexidade de outros processos ditos problemáticos maiores uma vez que os própios cidadãos realizaram o reporte e poderam detalhar a situação. 
+>Além do viés investigativo, a implementação de tecnologia na área irá permitir o compartilhamento de informações entre os usuários com o objetivo de informar sobre as situações atuais na sua zona regional como também em outras, tais informações poderam ser sinonimos da qualidade de vida no dia dia de cada cidadão.
 ## Público-Alvo
 
 ......  COLOQUE AQUI O SEU TEXTO ......
