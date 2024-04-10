@@ -68,37 +68,21 @@ ENGENHARIA DE SOFTWARE
 >Além do viés investigativo, a implementação de tecnologia na área irá permitir o compartilhamento de informações entre os usuários com o objetivo de informar sobre as situações atuais na sua zona regional como também em outras, tais informações poderam ser sinonimos da qualidade de vida no dia dia de cada cidadão.
 ## Público-Alvo
 
-> O nosso público se baseia em todos os cidadãos que possuem um senso crítico em relação a sua região de residência ou região em que mantém tráfego no seu cotidiano. Buscamos atingir jovens e idodos no quesito de disponibilzar espaço a todos para que denunciem possibilitando que cada um possa saber quais o problema mais enfrentado entre todos. Buscamos atender a parcela da sociedade que além de residirem em zonas mais carentes das metropoles como também buscamos atingir os individuos que recebem as demandas e as colocam em processo de resolução, a ideia é que nosso software atue tambem como intermediador entre as pessoas que denunciam e individuos que atendem as solitações. 
+> O nosso público se baseia em todos os cidadãos que possuem um senso crítico em relação à sua região de residência ou à região em que mantêm tráfego no seu cotidiano. Buscamos atingir jovens e idosos no quesito de disponibilizar espaço a todos para que denunciem, possibilitando que cada um possa saber quais são os problemas mais enfrentados entre todos. Buscamos atender à parcela da sociedade que, além de residirem em zonas mais carentes das metrópoles, também buscamos atingir os indivíduos que recebem as demandas e as colocam em processo de resolução. A ideia é que nosso software atue também como intermediador entre as pessoas que denunciam e os indivíduos que atendem as solicitações. 
  
 # Especificações do Projeto
 
-> Nosso projeto se da início com o uso da metodológia do Desing Thinking para que desenvolvemos maior conheciennt
+> Nosso projeto busca inicialmente atender à demanda da população que busca um veículo no qual consiga realizar suas denúncias sobre situações que infringem a sua qualidade de vida atrelada à segurança pública. Para isso, o usuário de nossa plataforma contará com a possibilidade de realizar denúncias relacionadas à infraestrutura pública, segurança civil e riscos à saúde pública. Essas três vertentes são pontos delicados que hoje apresentam muitas fragilidades em todas as regiões. Nossas denúncias contarão com o aspecto da localização onde está a ocorrência para que, com isso, consigamos mapear cada região de acordo com a denúncia que mais ocorre. Com isso, buscamos quebrar estereótipos e de fato marcar aquela região em função das denúncias feitas pelos próprios usuários.
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+> Disponibilizaremos relatórios regionais em função das denúncias que foram feitas naquela região. Buscamos mostrar as mais recorrentes, porém sem excluir as demais. Com isso, poderemos passar um feedback para nossos usuários, como também contribuir como terceiros olhos para os órgãos que gerenciam os três pilares de denúncias que disponibilizaremos. Com isso, aumentamos a possibilidade de correção, como também mitigamos as chances de proliferação da denúncia/ocorrência.
+
+> Será possível que nossos usuários façam o cadastro da região onde moram, assim como também poderão, no momento da denúncia, alterar a localização caso a ocorrência seja fora de sua localidade normal. Em caso de erro, também será possível fazer a exclusão da denúncia, assim como poderão realizar a denúncia de forma anônima, visando a segurança de nossos usuários. A visualização das regiões em função das ocorrências mais frequentes visa manter a integridade dos usuários/cidadãos, uma vez que a ocorrência daquela região pode oferecer riscos para outras, além de inovar a forma com que as solicitações chegam aos órgãos competentes.
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
+> Inicialmente, identificamos os agentes da lei como o primeiro representante desta bloco social. Nossa aplicação irá contribuir significativamente para esta persona, uma vez que as nossas denúncias estarão sendo divididas por regiões, com a possibilidade de detalhamento. Assim, agentes da lei, como Policiais Militares do Estado, poderão conferir as regiões mais afetadas pelo que buscam e, com isso, economizar tempo de busca e aumentar a eficiência das patrulhas diárias.
+> Quanto a parcela de moradores das regiões, identificamos esta persona no momento que percebemos o sintimento de invisibilidade existente entre os mesmos no quesito de atendimento de seus pedidos de melhora da região onde residem. Ao usarem nosso programa poderam reportarem acontecimento, fatos e ocorrências que sintam necessidade e que iram contribuir para melhoria de sua qualidade de vida, com isso supriremos a vontade de expressarem suas opiniões e juntamente com isso registrarem sua indignação em relação a alguma fragilidade que se encaixe no escopo da denuncias. O elemento chave é que a denúncia será feita por um único usuário e o resultado deste fator é que teremos o maior detalhamento da ocorrência e també poderemos medir sua frequência. Portanto será visualizado por orgãos superiores que é necessário que sua intervençam para atendimento as demanda dos moradores.
+>  
 > **Exemplo de Persona**
 > 
 > ![Exemplo de Persona](imaages/../images/persona.png)
@@ -110,10 +94,15 @@ ENGENHARIA DE SOFTWARE
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... | QUERO/PRECISO ...  |PARA ... /VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Morador da zona leste de BH| gostaria de uma forma de enviar uma foto de um assalto que flagrei hoje| que todos poçam ver como esta rua esta ficando perigosa|
+|Policial                    | preciso de uma forma de localizar as novas zonas de criminalidade      | conseguir posicionar melhor minhas viaturas e ser mais eficientes nas patrulhas diárias |
+|Motorista de aplicativo| poder vizualizar previamente se o destino do meu passageiro é seguro |conseguir buscar meios alternativos de chegar ao endereço e também ter masi cautela |
+|Administrador| Alterar permissões| Permitir que possam administrar contas |
+|Administrador| Alterar permissões| Permitir que possam administrar contas |
+|Administrador| Alterar permissões| Permitir que possam administrar contas |
+|Administrador| Alterar permissões| Permitir que possam administrar contas |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
