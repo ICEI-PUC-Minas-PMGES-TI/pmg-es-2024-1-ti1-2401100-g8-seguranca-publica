@@ -53,10 +53,10 @@ ENGENHARIA DE SOFTWARE
 ## Problema
 > As metrópoles frequentemente enfrentam desafios significativos em termos de segurança pública devido à alta densidade populacional, diversidade, desigualdade socioeconômica e complexidade dos problemas relacionados ao crime. Portanto, as prefeituras podem não ser capazes de atender a toda a demanda por si só.Atualmente nos centros urbanos, o medo do crime, da violência, da ausência de policiamento e da falta de infraestrutura adequada é uma preocupação generalizada em muitas regiões. Dito isso, percebemos que devido à enorme zona de ocupação populacional, muitas vezes os orgãos de garantia do bem estar social não atendem a todas as demandas. 
 ## Objetivos
-##Objetivos Gerais
+### Objetivos Gerais
 > Como obejtivo fundamental nossa proposta é comlementar o sistema de gerenciamento de quailidade da segurança e infraestrutura oferecida aos cidadãos.
  
-##Obejativos Específicos
+### Obejativos Específicos
 > Temos como obetivo auxiliar os orgãos governamentais no gerencias da qualidade de vida nas cidades.
 > Trasmitir segurança para os cidadãos através do sistema de denuncias compartilhadas e mapeamento em função das ocorências.
 > Contribuir com os agentes da lei no momento de investigação de ocorrências com padrão de ocorrências.
@@ -68,26 +68,11 @@ ENGENHARIA DE SOFTWARE
 >Além do viés investigativo, a implementação de tecnologia na área irá permitir o compartilhamento de informações entre os usuários com o objetivo de informar sobre as situações atuais na sua zona regional como também em outras, tais informações poderam ser sinonimos da qualidade de vida no dia dia de cada cidadão.
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+> O nosso público se baseia em todos os cidadãos que possuem um senso crítico em relação a sua região de residência ou região em que mantém tráfego no seu cotidiano. Buscamos atingir jovens e idodos no quesito de disponibilzar espaço a todos para que denunciem possibilitando que cada um possa saber quais o problema mais enfrentado entre todos. Buscamos atender a parcela da sociedade que além de residirem em zonas mais carentes das metropoles como também buscamos atingir os individuos que recebem as demandas e as colocam em processo de resolução, a ideia é que nosso software atue tambem como intermediador entre as pessoas que denunciam e individuos que atendem as solitações. 
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Nosso projeto se da início com o uso da metodológia do Desing Thinking para que desenvolvemos maior conheciennt
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
