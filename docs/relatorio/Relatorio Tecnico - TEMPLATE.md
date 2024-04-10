@@ -54,7 +54,8 @@ ENGENHARIA DE SOFTWARE
 > As metrópoles frequentemente enfrentam desafios significativos em termos de segurança pública devido à alta densidade populacional, diversidade, desigualdade socioeconômica e complexidade dos problemas relacionados ao crime. Portanto, as prefeituras podem não ser capazes de atender a toda a demanda por si só.Atualmente nos centros urbanos, o medo do crime, da violência, da ausência de policiamento e da falta de infraestrutura adequada é uma preocupação generalizada em muitas regiões. Dito isso, percebemos que devido à enorme zona de ocupação populacional, muitas vezes os orgãos de garantia do bem estar social não atendem a todas as demandas. 
 ## Objetivos
 ##Objetivos Gerais
-> Como obejtivo fundamental nossa proposta é comlementar o sistema de gerenciamento de quailidade da segurança e infraestrutura oferecida aos cidadãos. 
+> Como obejtivo fundamental nossa proposta é comlementar o sistema de gerenciamento de quailidade da segurança e infraestrutura oferecida aos cidadãos.
+ 
 ##Obejativos Específicos
 > Temos como obetivo auxiliar os orgãos governamentais no gerencias da qualidade de vida nas cidades.
 > Trasmitir segurança para os cidadãos através do sistema de denuncias compartilhadas e mapeamento em função das ocorências.
