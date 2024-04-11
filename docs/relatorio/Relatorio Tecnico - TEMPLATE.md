@@ -96,10 +96,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... | QUERO/PRECISO ...  |PARA ... /VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Morador da zona leste de BH| gostaria de uma forma de enviar uma foto de um assalto que flagrei hoje| que todos poçam ver como esta rua esta ficando perigosa|
+|Morador da zona leste de BH | gostaria de uma forma de enviar uma foto de um assalto que flagrei hoje| que todos poçam ver como esta rua esta ficando perigosa|
 |Policial                    | preciso de uma forma de localizar as novas zonas de criminalidade      | conseguir posicionar melhor minhas viaturas e ser mais eficientes nas patrulhas diárias |
 |Motorista de aplicativo| poder vizualizar previamente se o destino do meu passageiro é seguro |conseguir buscar meios alternativos de chegar ao endereço e também ter masi cautela |
-|Administrador| Alterar permissões| Permitir que possam administrar contas |
+|Mãe| de algum modo informar sobre o quanto as ruas perto da escola do meu filho são movimentadas na saída dos "meininos" | para assim colocarem um guarda para regular o trasito |
 |Administrador| Alterar permissões| Permitir que possam administrar contas |
 |Administrador| Alterar permissões| Permitir que possam administrar contas |
 |Administrador| Alterar permissões| Permitir que possam administrar contas |
@@ -121,10 +121,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID    | Descrição do Requisito  | Prioridade | Descrição |
+|------|-----------------------------------------|----|----|
+|RF-001| Tela de login | ALTA |Permitir que nossos uduários façam uso personalizado da nossa plataforma.  |
+|RF-002| Busca região | MÉDIA |Nesta aba o usuário podera buscar as ocorrências que acontecem na região pesquisada|
+|RF-003| Cadastro da denúncia| MÉDIA |Aba em que o usuário poderá colocar as informações de sua denúncia e fazer a postagem|
+|RF-004| Gráficos de cada região| MÉDIA |Mostrará um relatório das Regioes Cadastradas (CARDEAIS E COLATERAIS DA BÚSSOLA ) em função das denúnicias feitas em cada uma delas |
+|RF-005| Denuncia anônima | MÉDIA |Devido o carater da denúncia, nosso usuário poderá fazer uma denúnicia anónima visando manter sua segurança|
+|RF-006| Editar cadastro de região | MÉDIA |uma vez a região cadastrada, em um evento de mobilidade o usuário poderá estar mudando sua região para a que se encontra|
+|RF-007| Aba de informações do projeto/sobre nós| BAIXA |Região de informações sobre o projeto, origem do nome, quem somos... |
+|RF-008| Excluir denúnica | MÉDIA |Será possível que exclua uma denúncia que antes foi feita.|
+|RF-009| Botões de verificação do usuário| MÉDIA |Estes botões ficaram logo abaixo de cada publicação de denuncia e através deles saberemos pela interação dos outros usuários sobre a veracidade da publicação da denúncia.  |
+|RF-010| Perfil do Usuário | MÉDIA |Mostrará o perfil do usuário jutamente com suas postagens já feitas.|
 
 
 ### Requisitos não Funcionais
