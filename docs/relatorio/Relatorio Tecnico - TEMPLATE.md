@@ -193,7 +193,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |Processo de Design Thinkgin  | Miro |  [https://miro.com/XXXXXXX ](https://miro.com/app/board/uXjVNiWnpFo=/)| 
 |Repositório de código | GitHub | [https://github.com/XXXXXXX ](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica.git)| 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Protótipo Interativo | Figma | [https://figma.com/XXXXXXX](https://www.figma.com/file/khROXXMgWYX9XuuoefHuff/Projeto-Facul?type=design&node-id=0%3A1&mode=design&t=ABGQSVNxlnvK9z10-1) | 
 
 
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
