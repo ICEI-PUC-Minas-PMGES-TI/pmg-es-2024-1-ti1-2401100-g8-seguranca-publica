@@ -114,13 +114,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-003| Cadastro da denúncia| ALTA |Aba em que o usuário poderá colocar as informações de sua denúncia e fazer a postagem|
 |RF-004| Aba de informações do projeto/sobre nós| ALTA |Região de informações sobre o projeto, origem do nome, quem somos... |
 |RF-005| Perfil do Usuário | ALTA |Mostrará o perfil do usuário jutamente com suas postagens já feitas.|
-|RF-004| Gráficos de cada região| ALTA |Mostrará um relatório das Regioes Cadastradas (CARDEAIS E COLATERAIS DA BÚSSOLA ) em função das denúnicias feitas em cada uma delas |
-|RF-006| Editar denuncia | MÉDIA |Uma vez que ele fez a denúncia podera editar os dados da mesma caso esteja errada|
-|RF-005| Denuncia anônima | MÉDIA |Devido o carater da denúncia, nosso usuário poderá fazer uma denúnicia anónima visando manter sua segurança|
-|RF-008| Excluir denúnica | MÉDIA |Será possível que exclua uma denúncia que antes foi feita.|
-|RF-009| Botões de verificação da denuncia| MÉDIA |Estes botões ficaram logo abaixo de cada publicação de denuncia e através deles saberemos pela interação dos outros usuários sobre a veracidade da publicação da denúncia.  |
-|RF-009| Busca Região | MÉDIA |Usuário poderá escolher uma região para obter informações da mesma   |
-|RF-009| Gráfico da Região| MÉDIA | Mostrará um gráfico informando o tipo da denúncia e a frequência com que essa denúncia ocorre naquela região|
+|RF-006| Gráfico da Região| MÉDIA | Mostrará um gráfico informando o tipo da denúncia e a frequência com que essa denúncia ocorre naquela região|
+|RF-007| Editar denuncia | MÉDIA |Uma vez que ele fez a denúncia podera editar os dados da mesma caso esteja errada|
+|RF-008| Denuncia anônima | MÉDIA |Devido o carater da denúncia, nosso usuário poderá fazer uma denúnicia anónima visando manter sua segurança|
+|RF-009| Excluir denúnica | MÉDIA |Será possível que exclua uma denúncia que antes foi feita.|
+|RF-010| Botões de verificação da denuncia| MÉDIA |Estes botões ficaram logo abaixo de cada publicação de denuncia e através deles saberemos pela interação dos outros usuários sobre a veracidade da publicação da denúncia.  |
+|RF-011| Busca Região | MÉDIA |Usuário poderá escolher uma região para obter informações da mesma   |
+
 
 
 ### Requisitos não Funcionais
