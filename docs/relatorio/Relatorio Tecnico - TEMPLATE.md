@@ -110,15 +110,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |ID    | Descrição do Requisito  | Prioridade | Descrição |
 |------|-----------------------------------------|----|----|
 |RF-001| Tela de login | ALTA |Permitir que nossos uduários façam uso personalizado da nossa plataforma.  |
-|RF-002| Busca região | ALTA |Nesta aba o usuário podera buscar as ocorrências que acontecem na região pesquisada|
+|RF-002| Cadastro de Usuário | ALTA |Fazer cadastro do usuário que não tem login|
 |RF-003| Cadastro da denúncia| ALTA |Aba em que o usuário poderá colocar as informações de sua denúncia e fazer a postagem|
-|RF-004| Gráficos de cada região| MÉDIA |Mostrará um relatório das Regioes Cadastradas (CARDEAIS E COLATERAIS DA BÚSSOLA ) em função das denúnicias feitas em cada uma delas |
+|RF-004| Aba de informações do projeto/sobre nós| ALTA |Região de informações sobre o projeto, origem do nome, quem somos... |
+|RF-005| Perfil do Usuário | ALTA |Mostrará o perfil do usuário jutamente com suas postagens já feitas.|
+|RF-004| Gráficos de cada região| ALTA |Mostrará um relatório das Regioes Cadastradas (CARDEAIS E COLATERAIS DA BÚSSOLA ) em função das denúnicias feitas em cada uma delas |
+|RF-006| Editar denuncia | MÉDIA |Uma vez que ele fez a denúncia podera editar os dados da mesma caso esteja errada|
 |RF-005| Denuncia anônima | MÉDIA |Devido o carater da denúncia, nosso usuário poderá fazer uma denúnicia anónima visando manter sua segurança|
-|RF-006| Editar cadastro de região | MÉDIA |uma vez a região cadastrada, em um evento de mobilidade o usuário poderá estar mudando sua região para a que se encontra|
-|RF-007| Aba de informações do projeto/sobre nós| ALTA |Região de informações sobre o projeto, origem do nome, quem somos... |
 |RF-008| Excluir denúnica | MÉDIA |Será possível que exclua uma denúncia que antes foi feita.|
-|RF-009| Botões de verificação do usuário| MÉDIA |Estes botões ficaram logo abaixo de cada publicação de denuncia e através deles saberemos pela interação dos outros usuários sobre a veracidade da publicação da denúncia.  |
-|RF-010| Perfil do Usuário | MÉDIA |Mostrará o perfil do usuário jutamente com suas postagens já feitas.|
+|RF-009| Botões de verificação da denuncia| MÉDIA |Estes botões ficaram logo abaixo de cada publicação de denuncia e através deles saberemos pela interação dos outros usuários sobre a veracidade da publicação da denúncia.  |
+|RF-009| Busca Região | MÉDIA |Usuário poderá escolher uma região para obter informações da mesma   |
+|RF-009| Gráfico da Região| MÉDIA | Mostrará um gráfico informando o tipo da denúncia e a frequência com que essa denúncia ocorre naquela região|
 
 
 ### Requisitos não Funcionais
@@ -144,16 +146,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-
-
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/e7851dda-00bc-4e07-a54a-103a1f317585)
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/53666e22-d994-467c-aa2f-530dd26ebc77)
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/12dfab8e-fa0e-4584-b336-9920f1504681)
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/311ece2a-f1ed-49e1-b38e-b47d527d38eb)
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/a82d0e19-df27-4197-882b-dbbc2591199a)
-
-
-
 ## User Flow
 
 ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/e00937e0-bc52-47b7-9ab3-44baa9c1539d)
@@ -174,13 +166,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-|Integrante| Sprint 1  | Sprint 2|
+|Integrante| Sprint 2  | Sprint 3|
 |--|-------------------------------------------------------|-|
-|Luiz | ******| ****** | 
-|Othavio| ******| ****** | 
-|Eleno| ******| ****** | 
-|Gabriel | ******| ****** | 
-|Emanuel| ******| ****** | 
+|Luiz | Tela de login | Gráficos e Busca Região| 
+|Othavio| Cadastro de User | Denuncia Anônima | 
+|Eleno| Sobre nós | Excluir denúnica | 
+|Gabriel | Cadastro de Denuncia | Editar Denúncia | 
+|Emanuel| Aba de Perfil | Botão de Verificação da Denúncia | 
 
 
 
