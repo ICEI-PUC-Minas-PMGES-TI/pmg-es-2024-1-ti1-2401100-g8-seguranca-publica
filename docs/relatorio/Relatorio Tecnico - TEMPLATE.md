@@ -148,21 +148,29 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/e00937e0-bc52-47b7-9ab3-44baa9c1539d)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/4919ce41-b784-4529-99d8-2041d8f8b6c2)
+
 
 
 ## Wireframes
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/effa8e05-cc23-4c12-84b4-d8216a8db922)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/1f71d9ee-108c-4b60-b32e-2f9465c24d26)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/16a224ca-8e33-40d2-8cbd-ff20374bea00)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/b4a37665-21d9-4747-83e3-4a0bfc23edb4)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/1be528c0-7948-4732-9321-f2a0d6f7aaaa)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/02418f4a-e3e4-4be7-b49d-a91b5bf405d6)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/45a5d3b2-808f-4abb-8bc0-406532880b64)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/acf55963-af5d-4f59-9ec9-9b3a9850d752)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/77bb18fd-d1d6-4407-b1b1-4661e5cb4655)
 
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/e7851dda-00bc-4e07-a54a-103a1f317585)
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/53666e22-d994-467c-aa2f-530dd26ebc77)
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/12dfab8e-fa0e-4584-b336-9920f1504681)
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/311ece2a-f1ed-49e1-b38e-b47d527d38eb)
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/a82d0e19-df27-4197-882b-dbbc2591199a)
+
 
 # Metodologia
 > Nossa equipe conta com reuniões todos os sábados marcadas às 10:00 AM para verificarmos as demandas e definirmos tarefas a serem cumpridas até a próxima reuniam, sendo que nas aulas em sala, já apresentamos um protótipo do que foi demandado no sábado para que a proxíma reunião seja somente de ajustes e novas demandas. 
 > Utilizamos como inicio do desenvolvimento o processo de Desing Thinking para buscarmos informações, descobrirmos nosso público alvo e montar nossa proposta baseada em software.
-> Nossas reuniões são feitas através da plataforma do Discord e fazemos o uso do Git Hub para controlarmos as versões do nosso código fonte. 
+> Nossas reuniões são feitas através da plataforma do Discord e fazemos o uso do Git Hub para controlarmos as versões do nosso código fonte.
+  
+
 
 ## Divisão de Papéis
 
@@ -188,10 +196,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |Protótipo Interativo | Figma | [https://figma.com/XXXXXXX](https://www.figma.com/file/khROXXMgWYX9XuuoefHuff/Projeto-Facul?type=design&node-id=0%3A1&mode=design&t=ABGQSVNxlnvK9z10-1) | 
 
 
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+
 
 ## Controle de Versão
 
