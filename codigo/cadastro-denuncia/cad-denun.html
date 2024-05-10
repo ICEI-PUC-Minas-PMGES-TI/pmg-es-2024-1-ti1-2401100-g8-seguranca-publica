@@ -14,16 +14,16 @@
             <img src="assets/img/Logo sem fundo 1.jpg" alt="imagem da logo da empresa Argos com fundo branco.">
         </div>
         <h1 style="text-align: center;">Faça sua Denúnica</h1>
-        <form >
+        <form id="forms">
             <fieldset>
                 <!--FAZENDO UM SELETOR PARA O ASSUNTO DA DENUNCIA-->
-                <div class="elementos">
-                    <label for="cadastro-denuncia" >Assunto da Denúnica</label>
-                    <select id="assunto">
+                <div class="elementos" >
+                    <label for="assunto" >Assunto da Denúnica</label>
+                    <select id="assunto" >
                         <option selected disabled value="">Selecione...</option>
-                        <option value="">Infraestrutura Pública</option>
-                        <option value="">Segurança</option>
-                        <option value="">Risco a saúde</option>
+                        <option value="infraestrutura_publica">Infraestrutura Pública</option>
+                        <option value="segunraça">Segurança</option>
+                        <option value="risco_a_saude">Risco a saúde</option>
                     </select>
                 </div>
 
@@ -31,9 +31,9 @@
                     <label for="gravidade" >Gravidade</label>
                     <select id="gravidade">
                         <option selected disabled value="">Selecione...</option>
-                        <option value="">Alta</option>
-                        <option value="">Intermediária</option>
-                        <option value="">baixa</option>
+                        <option value="alta">Alta</option>
+                        <option value="intermediária">Intermediária</option>
+                        <option value="baixa">baixa</option>
                     </select>
                 </div>
 
@@ -41,14 +41,14 @@
                     <label for="região" >Região</label>
                     <select id="região">
                         <option selected disabled value="">Selecione...</option>
-                        <option value="">Norte</option>
-                        <option value="">Sul</option>
-                        <option value="">Leste</option>
-                        <option value="">Oeste</option>
-                        <option value="">Nordeste</option>
-                        <option value="">Sudeste</option>
-                        <option value="">Nororeste</option>
-                        <option value="">Sudeste</option>
+                        <option value="norte">Norte</option>
+                        <option value="sul">Sul</option>
+                        <option value="leste">Leste</option>
+                        <option value="oeste">Oeste</option>
+                        <option value="nordeste">Nordeste</option>
+                        <option value="sudeste">Sudeste</option>
+                        <option value="noroeste">Nororeste</option>
+                        <option value="sudeste">Sudeste</option>
                     </select>
                 </div>
 
@@ -58,7 +58,37 @@
                 <!--FAZENDO UM SELETOR PARA O ASSUNTO DA DENUNCIA-->
                 <div class="elementos">
                     <label for="estado" >Estado </label>
-                    <input type="text" id="estado">
+                    <select id="estado">
+                        <option value="">Selecione um estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                    
                 </div>
 
                 <div class="elementos">
@@ -71,31 +101,33 @@
                     <input type="text" id="bairro">
 
             </fieldset>
-
-        </form>
-
-
-
-        <br>
+            <br>
         <div class="elementos">
             <label>Descrição da Denúnica</label>
             <textarea id="descrição" rows="10"></textarea>
         </div>
         <br>
+        </form>
+
+
+
         
+        <br>
+        <br>
         
         <div id="elementosubmit">
             <div id="elementomidia">
                 <input type="file" id="fileInput" class="file-input" style="display: none;">
 
-                
                 <button onclick="document.getElementById('fileInput').click()" class="custom-button"><strong>Adicionar Midia</strong></button>
             </div>
             <br>
             <br>
-            <button type="submit" class="botão"><strong>Enviar</strong> </button>
+            <button type="submit" class="botão" id="envio"><strong>Enviar</strong> </button>
         </div>
     </div>
-    
+
+
+    <script src="assets/cadastro-denun.js"></script>
 </body>
 </html>
