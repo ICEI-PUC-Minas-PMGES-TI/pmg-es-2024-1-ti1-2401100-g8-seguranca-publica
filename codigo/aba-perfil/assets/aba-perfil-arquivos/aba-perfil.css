@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
 }
+/*Definindo tamanho, largura, cor e posicionamento do cabeçalho e da logo*/
 header{
     background-color: #75E4D5;
     height: 200px;
@@ -20,6 +21,9 @@ header{
     justify-content: center;
     align-items: center;
 }
+/*-------------------------------------------------*/
+
+/*Definindo tamanho, largura e posicionamento dos intes na main*/
 #imagemDePerfil img{
     max-width: 202px;
     max-height: 242px;
@@ -42,7 +46,10 @@ main{
 #nomeUsuario, #telefoneUsuario, #idUser, #quantDenuncias{
     float: right;
 }
+/*-------------------------------------------------*/
 
+/*Definindo tamanho, cor das letras, cor de fundo, posicionamento dos botões
+de navegação e histórico de denúncias*/
 nav{
     height: 200px;
     position: absolute;
@@ -56,12 +63,24 @@ nav{
     justify-content: center;
 }
 #imagemDePerfil {
-    margin-right: 20px; /* Espaço entre a foto e as informações */
+    margin-right: 20px; 
 }
 
 nav {
-    text-align: center; /* Centraliza o botão */
+    text-align: center;
 }
+button{
+    background-color: #75E4D5;
+    color: black;
+    border: 0px;
+    border-radius: 10px;
+    height: 30%;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+/*Responsividade para telas grandes*/
 @media screen and (min-width: 1330px ) and (max-width: 1430px) {
     main{
         width: 45%;

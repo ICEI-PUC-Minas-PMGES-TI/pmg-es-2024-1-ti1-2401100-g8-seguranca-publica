@@ -1,3 +1,4 @@
+// Guardando dados em um repositório local
 function leDados() {
     let strDados = localStorage.getItem('dadosUsuario');
     let objDados = {};
@@ -6,7 +7,7 @@ function leDados() {
         objDados = JSON.parse(strDados);
     } else {
         objDados = {
-            nome: "Luiz Fagundes",
+            nome: "Gabriel Assis",
             telefone: "31-95958-4345",
             idUsuario: "000001",
             numeroDeDenuncias: '0'
@@ -15,7 +16,7 @@ function leDados() {
 
     return objDados;
 }
-
+// Guarda e imprime em variáveis os dados do objeto
 function imprimeDados() {
     let divNome = document.getElementById('nomeUsuario');
     let divTelefone = document.getElementById('telefoneUsuario');
@@ -30,6 +31,7 @@ function imprimeDados() {
     divNumeroDeDenuncias.textContent = dadosUsuario.numeroDeDenuncias;
 }
 
+// Faz um botão mostrar o histórico de denúncias do usuário
 function toggle(el){
     var display = document.getElementById(el).style.display;
     if(display == 'none'){
