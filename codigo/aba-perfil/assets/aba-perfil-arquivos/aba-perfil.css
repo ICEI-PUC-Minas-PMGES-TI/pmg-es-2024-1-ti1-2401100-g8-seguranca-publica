@@ -75,10 +75,14 @@ button{
     border: 0px;
     border-radius: 10px;
     height: 30%;
+    width: 200px;
 }
 nav a{
     text-decoration: none;
     color: black;
+}
+input{
+    margin-right: 100px;
 }
 /*Responsividade para telas grandes*/
 @media screen and (min-width: 1330px ) and (max-width: 1430px) {
