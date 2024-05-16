@@ -7,6 +7,7 @@ Atualmente nos centros urbanos, medo do crime,da violência, a ausênncia de pol
 * Emanoel Gonçalves Maia
 * Heleno Vasconcelos Rodrigues
 * Othavio Rodrigues Nunes Santos
+* Gabriel Assis de Souza
 
 ## Professores responsáveis
 
