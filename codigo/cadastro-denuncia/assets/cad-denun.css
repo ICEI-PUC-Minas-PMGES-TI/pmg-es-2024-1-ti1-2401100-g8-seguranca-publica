@@ -12,6 +12,8 @@
 body{
     padding: 10px;
 }
+
+
 #container{
     display: block;
     align-items: center;
@@ -37,7 +39,8 @@ body{
 /*PERSONALIZANDO  ELEMENTOS */
 form{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 100px;
 }
 
 
@@ -103,6 +106,7 @@ form{
 .botão:hover{
     background-color: #75E4D5;
 }
+
 
 
 /*FAZENDO A RESPOSIVIDADE*/
