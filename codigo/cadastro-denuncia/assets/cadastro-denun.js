@@ -20,7 +20,7 @@ function le_dados (){
     let dados= localStorage.getItem('db');
 
     objdados={};
-
+        
     if (dados){
         objdados = JSON.parse(dados);
     }else{
@@ -51,9 +51,11 @@ function salvadados(dados){
     localStorage.setItem('db',JSON.stringify(dados))
 }
 
-function incluir_contato(){
+function incluir_denun(){
     //LER OS DADOS NO LOCAL STRORAGE 
     let objdados = le_dados();
+
+    
     //INCLUINDO NOVO CONTATO
     let strassunto = document.getElementById('assunto').value;
     let strgravidade = document.getElementById('gravidade').value;
@@ -65,6 +67,8 @@ function incluir_contato(){
     let strestado = document.getElementById('estado').value;
     let strdescrição = document.getElementById('descrição').value;
     let strfoto = document.getElementById('fileInput');
+
+
     //CRIANDO NOVO CONTATO 
 
     let novo_conato = {
@@ -134,6 +138,6 @@ cep.addEventListener('focusout',async() =>{
 
 })
 
-document.getElementById('envio').addEventListener('click',incluir_contato);
+document.getElementById('envio').addEventListener('click',incluir_denun);
 
 

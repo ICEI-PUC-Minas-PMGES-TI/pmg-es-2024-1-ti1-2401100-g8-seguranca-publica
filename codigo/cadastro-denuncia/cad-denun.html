@@ -36,22 +36,22 @@
                     <span id="message"></span>
                     <label for="cep" >Digite o CEP</label>
                     
-                    <input type="text" id="cep">
+                    <input type="text" id="cep" required>
                 </div>
 
                 <div class="elementos">
                     <label for="endereco" >Endereço</label>
-                    <input type="text" id="endereco">
+                    <input type="text" id="endereco" required>
                 </div>
 
                 <div class="elementos">
                     <label for="bairro" >Bairro</label>
-                    <input type="text" id="bairro">
+                    <input type="text" id="bairro" required>
                 </div>
 
                 <div class="elementos">
                     <label for="cidade" >Cidade</label>
-                    <input type="text" id="cidade">
+                    <input type="text" id="cidade" required>
                 </div>
 
                 
@@ -60,7 +60,7 @@
                     
                 <div class="elementos">
                         <label for="estado" >Estado </label>
-                        <select id="estado">
+                        <select id="estado" required>
                             <option value="">Selecione um estado</option>
                             <option value="AC">Acre</option>
                             <option value="AL">Alagoas</option>
@@ -99,27 +99,27 @@
                 <!--FAZENDO UM SELETOR PARA O ASSUNTO DA DENUNCIA-->
                 <div class="elementos" >
                     <label for="assunto" >Assunto da Denúnica</label>
-                    <select id="assunto" >
+                    <select id="assunto" required >
                         <option selected disabled value="">Selecione...</option>
-                        <option value="infraestrutura_publica">Infraestrutura Pública</option>
-                        <option value="segunraça">Segurança</option>
-                        <option value="risco_a_saude">Risco a saúde</option>
+                        <option value="Infraestrutura Publica">Infraestrutura Pública</option>
+                        <option value="Segurança">Segurança</option>
+                        <option value="Risco a Saude">Risco a saúde</option>
                     </select>
                 </div>
 
                 <div class="elementos">
                     <label for="gravidade" >Gravidade</label>
-                    <select id="gravidade">
+                    <select id="gravidade" required>
                         <option selected disabled value="">Selecione...</option>
-                        <option value="alta">Alta</option>
-                        <option value="intermediária">Intermediária</option>
-                        <option value="baixa">baixa</option>
+                        <option value="Alta">Alta</option>
+                        <option value="Intermediária">Intermediária</option>
+                        <option value="Baixa">Baixa</option>
                     </select>
                 </div>
                 
                 <div class="elementos">
                     <label for="região" >Região</label>
-                    <select id="região">
+                    <select id="região" required>
                         <option selected disabled value="">Selecione...</option>
                         <option value="norte">Norte</option>
                         <option value="sul">Sul</option>
@@ -160,6 +160,10 @@
             <br>
             <br>
             <button type="submit" class="botão" id="envio"><strong>Enviar</strong> </button>
+
+        
+            <br><br>
+            <button type="submit" class="botão-home" id="envio"><strong><a href="../home-denuncias/assets/home.html">Home de Denúncias</a></strong> </button>
         </div>
     </div>
 
