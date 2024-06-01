@@ -57,6 +57,7 @@ function carrega_denúncias(){
         <div class="card-body">
           <h5 class="card-title">Gravidade: ${dadosobjeto.denuncia[i].gravidade}</h5>
           <p class="card-text">Ocorrida no bairro ${dadosobjeto.denuncia[i].bairro} na cidade ${dadosobjeto.denuncia[i].cidade}</p>
+          <button type="button" class="btn btn-info">Comentários</button>
           
         </div>
       </div>`
