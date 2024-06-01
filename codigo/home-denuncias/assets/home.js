@@ -18,11 +18,30 @@ const dadosobjeto = JSON.parse(denuncia)
 
 
 function carrega_denúncias(){
+    
     for (let i = 0; i < dadosobjeto.denuncia.length; i++) {
 
-        
 
+      //logica a proposiçaõ de cores de cabeçalho conforme o assunto da denúncia 
+      let cor = ""
+      
+      if(dadosobjeto.denuncia[i].assunto == 'Segurança'){
+        cor="p-3 mb-2 bg-warning text-black";
+      }else if(dadosobjeto.denuncia[i].assunto == 'Infraestrutura Publica'){
+        cor="p-3 mb-2 bg-success text-black";
+      }else if(dadosobjeto.denuncia[i].assunto == 'Risco a Saude'){
+        cor="p-3 mb-2 bg-primary text-black";
+      }
+
+       
+      
+
+      
+      //criando a div onde vai aparecer a denuncia 
         const divdenun = document.createElement('div')
+        //criando a div onde iram ser colocados os detalhes de cada denuncia
+        
+          
         const divdetalhe= document.createElement('div');
         const divCompleta= document.createElement('div');
         const section = document.querySelector('#list-denun')
@@ -33,10 +52,11 @@ function carrega_denúncias(){
         divdenun.classList.add('denucia-parte')
 
         divdenun.innerHTML= `<div class="card">
-        <h5 class="card-header">Assunto da Denúncia: ${dadosobjeto.denuncia[i].assunto}</h5>
+        
+        <h5 class="${cor}">Assunto da Denúncia: ${dadosobjeto.denuncia[i].assunto}</h5>
         <div class="card-body">
           <h5 class="card-title">Gravidade: ${dadosobjeto.denuncia[i].gravidade}</h5>
-          <p class="card-text">Ocorrida no bairro ${dadosobjeto.denuncia[i].bairro} no estado ${dadosobjeto.denuncia[i].estado}</p>
+          <p class="card-text">Ocorrida no bairro ${dadosobjeto.denuncia[i].bairro} na cidade ${dadosobjeto.denuncia[i].cidade}</p>
           
         </div>
       </div>`
@@ -78,7 +98,9 @@ function carrega_denúncias(){
       
       
       </div>
-    </div>`
+      </div>`
+
+      
     
       divCompleta.appendChild(divdenun);
       divCompleta.appendChild(divdetalhe); 

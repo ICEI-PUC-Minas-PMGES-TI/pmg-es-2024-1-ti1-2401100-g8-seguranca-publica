@@ -30,14 +30,14 @@ function le_dados (){
             [  
                 {
                     assunto:"Segurança",
-                    gravidade:"Grave",
+                    gravidade:"Intermediária",
                     região: "Norte",
                     cep:"30290270",
                     endereco:"Rua Eldorado",
                     cidade:"Belo Horizonte",
-                    bairro:"Barreiro",
+                    bairro:"Conjunto Taquaril",
                     estado:"Minas Gerais",
-                    descrição:"Ocorrida a noite",
+                    descrição:"Foi visto na porta de uma insituição de ensino um lixão a céu aberto, as crianças no momento do intervalo estavam reclamando devido ao forte odor vindo da decomposição do lixo ",
                     foto:"img"
                 } 
             ]

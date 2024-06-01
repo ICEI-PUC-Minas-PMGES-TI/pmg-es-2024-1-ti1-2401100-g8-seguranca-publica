@@ -6,7 +6,9 @@ const obj_telefones= [
     {id: 1,orgao:'Policia Civil', tel: '197',url:'https://www.policiacivil.mg.gov.br/'},
     {id: 1,orgao:'Corpo de Bombeiros', tel: '193',url:'https://www.bombeiros.mg.gov.br/'},
     {id: 1,orgao:'Disque Denúncia', tel: '181',url:'https://www.seguranca.mg.gov.br/ajuda/page/319-disque-denuncia'},
-    {id: 2,orgao:'Defesa Civiil', tel: '199',url:'https://www.defesacivil.mg.gov.br/'},
+    {id: 2,orgao:'Defesa Civil', tel: '199',url:'https://www.defesacivil.mg.gov.br/'},
+    {id: 2,orgao:'Copasa', tel: '115',url:'https://www.copasa.com.br/wps/portal/internet/'},
+    {id: 2,orgao:'Cemig', tel: '116',url:'https://www.cemig.com.br/'},
     {id: 3,orgao:'SAMU', tel: '192',url:'https://prefeitura.pbh.gov.br/saude/informacoes/atencao-a-saude/urgencia-e-emergencia/samu#:~:text=%C3%89%20acessado%20pelo%20n%C3%BAmero%20%22192,Central%20de%20Regula%C3%A7%C3%A3o%20das%20Urg%C3%AAncias.'},
     {id: 3,orgao:'Disque Saude', tel: '136',url:'https://www.gov.br/saude/pt-br/canais-de-atendimento/ouvsus/servicos/servicos-do-disque-saude-136#:~:text=A%20Ouvidoria%2DGeral%20do%20SUS,pelos%20usu%C3%A1rios%20do%20sistema%20SUS.'}
 
@@ -37,7 +39,7 @@ function criarTabela(container){
 function criaCabecalho(thead){
     //criando um array de nomes para o cabeçalho 
     
-    let cabecalho = ['Órgão Resposável','Telefone de Contato','Saiba Mais'];
+    let cabecalho = ['Órgão','Tel. de Contato','Saiba Mais'];
     //todo thead precisa de um tr e logo depois um td
     const tr = document.createElement("tr");
     //nesse momento preparamos nosso thead para receber dados 
