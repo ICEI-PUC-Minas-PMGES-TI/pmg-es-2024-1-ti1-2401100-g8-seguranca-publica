@@ -27,6 +27,8 @@ header img{
     margin-top: 10px;
     margin-bottom: 10px;
     padding-bottom: 5px;
+    word-wrap: break-word;
+    max-width: 68ch; 
 }
 .delete{
     width: 80px;
@@ -39,7 +41,7 @@ header img{
 }
 .dataHora{
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 12px;
 }
 #comentarioS{
     padding: 20px 0;
