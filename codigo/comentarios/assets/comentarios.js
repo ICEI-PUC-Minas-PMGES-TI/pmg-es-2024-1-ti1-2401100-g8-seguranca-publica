@@ -4,18 +4,20 @@ function comentar() {
 
     function salvarComentarios() {
         const comentarios = [];
-        document.querySelectorAll('.comentarioContainer .comentario').forEach(comentario => {
-            comentarios.push(comentario.innerHTML);
+        document.querySelectorAll('.comentarioContainer').forEach(container => {
+            const texto = container.querySelector('.comentario').innerHTML;
+            const dataHora = container.querySelector('.dataHora').innerHTML;
+            comentarios.push({ texto, dataHora });
         });
         localStorage.setItem('comentarios', JSON.stringify(comentarios));
     }
 
     function carregarComentarios() {
         const comentarios = JSON.parse(localStorage.getItem('comentarios')) || [];
-        comentarios.forEach(texto => adicionarComentario(texto));
+        comentarios.forEach(comentario => adicionarComentario(comentario.texto, comentario.dataHora));
     }
 
-    function adicionarComentario(texto) {
+    function adicionarComentario(texto, dataHora = null) {
         if (texto.trim() !== "") {
             const container = document.createElement('div');
             container.classList.add("comentarioContainer");
@@ -24,18 +26,31 @@ function comentar() {
             novoComentario.innerHTML = texto;
             novoComentario.classList.add("comentario");
 
+            const dataHoraElemento = document.createElement('span');
+            dataHoraElemento.classList.add('dataHora');
+            dataHoraElemento.style.display = 'block';
+            
+            if (!dataHora) {
+                const dataAtual = new Date();
+                const dataFormatada = dataAtual.toLocaleDateString();
+                const horaFormatada = dataAtual.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                dataHora = `Comentado em: ${dataFormatada} às ${horaFormatada}`;
+            }
+            dataHoraElemento.innerHTML = dataHora;
+
             const btnER = document.createElement('button');
             btnER.innerHTML = "...";
             btnER.classList.add("btnER");
 
             container.appendChild(novoComentario);
+            container.appendChild(dataHoraElemento);
             container.appendChild(btnER);
 
             listaComentarios.appendChild(container);
 
             document.querySelector(".texto").value = "";
 
-            btnER.addEventListener('click', function() {
+            btnER.addEventListener('click', function () {
                 let btnEdit = container.querySelector('.edit');
                 let btnRemove = container.querySelector('.delete');
 
@@ -44,7 +59,7 @@ function comentar() {
                     btnEdit.innerHTML = "Editar";
                     btnEdit.classList.add('edit');
 
-                    btnEdit.addEventListener('click', function() {
+                    btnEdit.addEventListener('click', function () {
                         const inputEdit = document.createElement('input');
                         inputEdit.style.margin = '10px';
                         inputEdit.type = 'text';
@@ -58,11 +73,11 @@ function comentar() {
                         container.replaceChild(inputEdit, novoComentario);
                         container.appendChild(btnSave);
 
-                        btnSave.addEventListener('click', function() {
+                        btnSave.addEventListener('click', function () {
                             novoComentario.innerHTML = inputEdit.value;
                             container.replaceChild(novoComentario, inputEdit);
                             container.removeChild(btnSave);
-                            salvarComentarios(); 
+                            salvarComentarios();
                         });
                     });
 
@@ -70,9 +85,9 @@ function comentar() {
                     btnRemove.innerHTML = "Remover";
                     btnRemove.classList.add('delete');
 
-                    btnRemove.addEventListener('click', function(){
+                    btnRemove.addEventListener('click', function () {
                         container.remove();
-                        salvarComentarios(); 
+                        salvarComentarios();
                     });
 
                     container.appendChild(btnEdit);
@@ -85,15 +100,15 @@ function comentar() {
         }
     }
 
-    enviar.addEventListener('click', function() {
+    enviar.addEventListener('click', function () {
         const texto = document.querySelector(".texto").value;
         adicionarComentario(texto);
-        salvarComentarios(); 
+        salvarComentarios();
     });
 
     carregarComentarios();
 }
 
-window.addEventListener("load", function() {
+window.addEventListener("load", function () {
     comentar();
 });
