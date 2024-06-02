@@ -4,17 +4,7 @@ const dadosobjeto = JSON.parse(denuncia)
 
 
 
-//alert(dadosobjeto.denuncia[1].assunto)
 
-/*for (let i = 0; i < dadosobjeto.denuncia.length; i++) {
-    
-    console.log(dadosobjeto.denuncia[i].assunto)
-    console.log(dadosobjeto.denuncia[i].bairro)
-    console.log(dadosobjeto.denuncia[i].cep)
-    console.log(dadosobjeto.denuncia[i].cidade)
-    console.log(dadosobjeto.denuncia[i].endereço)
-
-}*/
 
 
 function carrega_denúncias(){
