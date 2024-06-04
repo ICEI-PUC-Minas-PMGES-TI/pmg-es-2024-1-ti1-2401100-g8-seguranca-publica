@@ -17,10 +17,13 @@ function carrega_denúncias(){
       
       if(dadosobjeto.denuncia[i].assunto == 'Segurança'){
         cor="p-3 mb-2 bg-warning text-black";
+
       }else if(dadosobjeto.denuncia[i].assunto == 'Infraestrutura Publica'){
         cor="p-3 mb-2 bg-success text-black";
+
       }else if(dadosobjeto.denuncia[i].assunto == 'Risco a Saude'){
         cor="p-3 mb-2 bg-primary text-black";
+
       }
 
        
