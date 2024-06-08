@@ -205,7 +205,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Partimos da premissa da criminalidade nas regiões metroplitanas e as ações arcaicas que eram necessárias para realizar uma denúncia, como por exemplo se deslocar ate uma delegacia ou então ligar por rede telefonica. Pensando nisso, em entendimento do porder das redes sociais, implementamos uma aplicação web que permite que o usuário no momento da ocoreência ou então no flagrante dela resgistre dados sobre o ocorrido. A amanipulação destes dados em nossa aplicação gerará o conhecimento das ocorrências daquela região e também a índole das mesmas, a aplicação destes dados com nossas ferramentas trará como retorno os índices de frenquência daquele tipo de denúncia em função da região em que ocorreu, será permitida também a interação entre os usuários para que debatam sobre a denúncia e seus detalhes. 
 
 ## Tecnologias Utilizadas
 
@@ -218,7 +218,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > Apresente também uma figura explicando como as tecnologias estão
 > relacionadas ou como uma interação do usuário com o sistema vai ser
 > conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
+
 > Inclua os diagramas de User Flow, esboços criados pelo grupo
 > (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
 > item textualmente comentando e complementando o que está apresentado
