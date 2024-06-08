@@ -144,7 +144,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/c2b2471c-fcd7-4def-b8ae-020ef9aa8a8d)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/c1620a05-c0ee-40ee-b66c-bd68a27dc8b4)
+
 
 
 
