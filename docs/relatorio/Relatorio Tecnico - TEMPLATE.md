@@ -83,7 +83,10 @@ ENGENHARIA DE SOFTWARE
 > Inicialmente, identificamos os agentes da lei como os primeiros representantes deste bloco social. Nossa aplicação contribuirá significativamente para essas pessoas, uma vez que nossas denúncias serão divididas por regiões, com a possibilidade de detalhamento. Assim, agentes da lei, como Policiais Militares do Estado, poderão conferir as regiões mais afetadas pelo que buscam e, com isso, economizar tempo de busca e aumentar a eficiência das patrulhas diárias. Quanto à parcela de moradores das regiões, identificamos estas pessoas no momento em que percebemos o sentimento de invisibilidade existente entre eles no quesito de atendimento de seus pedidos de melhoria da região onde residem. Ao usarem nosso programa poderão relatar acontecimentos, fatos e ocorrências que sintam necessidade e que irão contribuir para a melhoria de sua qualidade de vida. Com isso, incentivaremos a vontade de expressarem suas opiniões e, adicionalmente, registrarem sua indignação em relação a alguma fragilidade que se encaixe no escopo da denúncia. O elemento chave é que a denúncia será feita por um único usuário e o resultado deste fator é que teremos o maior detalhamento da ocorrência e também poderemos medir sua frequência. Portanto, será visualizado pelos órgãos superiores que é necessário intervir para atender a demanda dos moradores.
 
 > **Exemplo de Persona**
- ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/4e6dfd4f-b7c2-4ec2-babc-247bcae4978d)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/4e6dfd4f-b7c2-4ec2-babc-247bcae4978d)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/50b59827-e1ec-4282-9904-6c17f8462bd0)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/c9678a61-8a0e-4584-91d2-fce26b050e63)
+
 
 
 
@@ -99,9 +102,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Policial                    | preciso de uma forma de localizar as novas zonas de criminalidade      | conseguir posicionar melhor minhas viaturas e ser mais eficientes nas patrulhas diárias |
 |Motorista de aplicativo| poder vizualizar previamente se o destino do meu passageiro é seguro |conseguir buscar meios alternativos de chegar ao endereço e também ter masi cautela |
 |Mãe| de algum modo informar sobre o quanto as ruas perto da escola do meu filho são movimentadas na saída dos "meininos" | para assim colocarem um guarda para regular o trasito |
-|Administrador| Alterar permissões| Permitir que possam administrar contas |
-|Administrador| Alterar permissões| Permitir que possam administrar contas |
-|Administrador| Alterar permissões| Permitir que possam administrar contas |
+
 
 ## Requisitos
 
@@ -112,15 +113,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-001| Tela de login | ALTA |Permitir que nossos uduários façam uso personalizado da nossa plataforma.  |
 |RF-002| Cadastro de Usuário | ALTA |Fazer cadastro do usuário que não tem login|
 |RF-003| Cadastro da denúncia| ALTA |Aba em que o usuário poderá colocar as informações de sua denúncia e fazer a postagem|
-|RF-004| Aba de informações do projeto/sobre nós| ALTA |Região de informações sobre o projeto, origem do nome, quem somos... |
+|RF-004| Ligue Já| ALTA |Usuário terá acesso a telefones úteis em situação de emergência  |
 |RF-005| Perfil do Usuário | ALTA |Mostrará o perfil do usuário jutamente com suas postagens já feitas.|
 |RF-006| Gráfico da Região| MÉDIA | Mostrará um gráfico informando o tipo da denúncia e a frequência com que essa denúncia ocorre naquela região|
-|RF-007| Editar denuncia | MÉDIA |Uma vez que ele fez a denúncia podera editar os dados da mesma caso esteja errada|
-|RF-008| Denuncia anônima | MÉDIA |Devido o carater da denúncia, nosso usuário poderá fazer uma denúnicia anónima visando manter sua segurança|
-|RF-009| Excluir denúnica | MÉDIA |Será possível que exclua uma denúncia que antes foi feita.|
-|RF-010| Botões de verificação da denuncia| MÉDIA |Estes botões ficaram logo abaixo de cada publicação de denuncia e através deles saberemos pela interação dos outros usuários sobre a veracidade da publicação da denúncia.  |
-|RF-011| Busca Região | MÉDIA |Usuário poderá escolher uma região para obter informações da mesma   |
-
+|RF-007| Comentários na postagem | MÉDIA | Será possível a interação entre os usuários aravés de comentários na postagem da denúncia|
 
 
 ### Requisitos não Funcionais
@@ -148,7 +144,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/4919ce41-b784-4529-99d8-2041d8f8b6c2)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/c2b2471c-fcd7-4def-b8ae-020ef9aa8a8d)
+
 
 
 
@@ -190,10 +187,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  [https://miro.com/XXXXXXX ](https://miro.com/app/board/uXjVNiWnpFo=/)| 
-|Repositório de código | GitHub | [https://github.com/XXXXXXX ](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica.git)| 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | Figma | [https://figma.com/XXXXXXX](https://www.figma.com/file/khROXXMgWYX9XuuoefHuff/Projeto-Facul?type=design&node-id=0%3A1&mode=design&t=ABGQSVNxlnvK9z10-1) | 
+|Processo de Design Thinkgin  | Miro |  [https://miro.com/app/board/uXjVNiWnpFo=/ ](https://miro.com/app/board/uXjVNiWnpFo=/)| 
+|Repositório de código | GitHub | [https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica.git ](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica.git)| 
+|Hospedagem do site | Heroku |  [https://pages.github.com/](https://pages.github.com/) | 
+|Protótipo Interativo | Figma | [https://figma.com/file/khROXXMgWYX9XuuoefHuff/Projeto-Facul?type=design&node-id=0%3A1&mode=design&t=ABGQSVNxlnvK9z10-1](https://www.figma.com/file/khROXXMgWYX9XuuoefHuff/Projeto-Facul?type=design&node-id=0%3A1&mode=design&t=ABGQSVNxlnvK9z10-1) | 
 
 
 
