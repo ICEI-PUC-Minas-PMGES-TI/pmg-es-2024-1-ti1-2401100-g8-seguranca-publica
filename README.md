@@ -4,7 +4,6 @@ Atualmente nos centros urbanos, medo do crime,da violência, a ausênncia de pol
 ## Alunos integrantes da equipe
 
 * Luiz Gustavo Fagundes Teixeira
-* Emanoel Gonçalves Maia
 * Heleno Vasconcelos Rodrigues
 * Othavio Rodrigues Nunes Santos
 * Gabriel Assis de Souza
@@ -18,4 +17,4 @@ Atualmente nos centros urbanos, medo do crime,da violência, a ausênncia de pol
 ## Instruções de utilização
 
 Nosso software contará com a possibilidade do usuário realizar denuncias com os temas: Segurança/Policiamento, Infranestrutura Urbana e Risco a saúde pública. Cada denúncia poderá rececber uma descrição detalhada do evento feita pelo usuário. Para isso, o usuário poderá criar  uma conta pessoal e fazer o cadastro de sua região para que além de poder realizar denúncias, poça também ficar atento sobre os últimos reportes feitos por outros residentes de sua região. 
-Buscando a eficiência da aplicação, disponibilzaremos a opção de buscar informações de outras regiões caso o usuário busque fazer um delocamento e queira verificar questões de sgurança da região, como também será possível a disponibilzação de um relátório sobre as ocorrências de cada região, buscando atender não só a demanda do usuário como também o possível auxílio aos orgãos de garantia da ordem pública, uma vez que poderam ver as zonas onde mais ocorrem um detemrinado incidente e com isso aumentando a chance de intervenção. 
+Buscando a eficiência da aplicação, disponibilzaremos a opção de buscar informações de outras regiões caso o usuário busque fazer um deslocamento e queira verificar questões de sgurança da região, como também será possível a disponibilzação de um relátório sobre as ocorrências de cada região, buscando atender não só a demanda do usuário como também o possível auxílio aos orgãos de garantia da ordem pública, uma vez que poderam ver as zonas onde mais ocorrem um detemrinado incidente e com isso aumentando a chance de intervenção. 
