@@ -1,31 +1,33 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Argos - Segurança Pública
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Fagundes Teixeira
+    given-names: Luiz Gustavo 
+  - family-names: Golçalves Maia
+    given-names: Emanoel 
+  - family-names: Nunes Santos
+    given-names: Othavio Rodrigues 
+  - family-names: Assis de Souza
+    given-names: Gabriel 
+
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: de Faria Barros
+    given-names: Diego Augusto 
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Boechat Seufitelli
+    given-names: Danilo 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alves Nogueira
+    given-names: Simone
 keywords:
-  - 
-  - 
-repository-code: 
+  - Segunraça Pública
+  - Monitoramento
+  - Defesa Pública
+repository-code: https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica.git
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
+date-released: 2024-06-30
