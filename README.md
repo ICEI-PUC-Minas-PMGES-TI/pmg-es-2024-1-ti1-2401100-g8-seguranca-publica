@@ -4,7 +4,7 @@ Atualmente nos centros urbanos, medo do crime,da violência, a ausênncia de pol
 ## Alunos integrantes da equipe
 
 * Luiz Gustavo Fagundes Teixeira
-* Heleno Vasconcelos Rodrigues
+* Emanoel Gonçalves Maia
 * Othavio Rodrigues Nunes Santos
 * Gabriel Assis de Souza
 
