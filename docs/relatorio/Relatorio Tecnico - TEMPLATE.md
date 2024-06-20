@@ -208,21 +208,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > Partimos da premissa da criminalidade nas regiões metroplitanas e as ações arcaicas que eram necessárias para realizar uma denúncia, como por exemplo se deslocar ate uma delegacia ou então ligar por rede telefonica. Pensando nisso, em entendimento do porder das redes sociais, implementamos uma aplicação web que permite que o usuário no momento da ocoreência ou então no flagrante dela resgistre dados sobre o ocorrido. A amanipulação destes dados em nossa aplicação gerará o conhecimento das ocorrências daquela região e também a índole das mesmas, a aplicação destes dados com nossas ferramentas trará como retorno os índices de frenquência daquele tipo de denúncia em função da região em que ocorreu, será permitida também a interação entre os usuários para que debatam sobre a denúncia e seus detalhes. Somado a isso, teremos também a possíbilidade de mapeamento das denúncias onde a medida que os usuários fazem suas denúncias um mapa é preenchido assim mostrando as áreas geográficas com maior número de ocorrências, com isso buscamos que essa ferramente seja usada para miticar as ocorrências e também gerar base de dados para a atuação de órgãos responsáveis pela esfera em que a denúncia se encaixa.
 
 ## Tecnologias Utilizadas
-> Utilizamos de uma aplicação web para desenvolvermos nossa proposta de solução. Com isso estamos utilizando o HTML para documentarmos na web nossa aplicação, dando a ela estrutura e significado, juntamente utilizamos as CSS para estilizarmos o layout do nosso projeto visando sempre a melhor experiência do usuário e o melhor entendimento das informações. No que tange as interações, conexões entre dados e manipulação de dados utilizamos da linguagem Java Script para isso, a mesma se fez presente nas operações de CRUD de nossa aplicação. Todo versionamento do código fonte foi feito utilizando o Git Hub, as alterações de código foram feitas usando a IDE Visual Studio Code
-......  COLOQUE AQUI O SEU TEXTO ......
+Neste trabalho utilizamos de várias tecnologias e ferramentas para criar uma aplicação completa e funcional. Primeiramente, utillizamos HTML para estruturar o conteúdo do site, garantindo que todos os elementos necessários estivessem presentes. Com CSS, estilizamos a página, aplicando design e layout que proporcionam uma boa experiência visual aos usuários.
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Para adicionar interatividade e funcionalidades dinâmicas ao site, utilizamos JavaScript. Com essa linguagem, conseguimos manipular o DOM, responder a eventos de usuário e implementar lógica complexa no front-end. Além disso, usamos o localStorage para armazenar dados localmente no navegador do usuário, permitindo que informações persistam entre sessões, como preferências de usuário ou estado de formulários.
 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+Para desenvolver o projeto, utilizamos o Visual Studio Code, um editor de código robusto e com diversas extensões que facilitaram trabalho, como auto-complete, debugging e integração com Git. Em relação ao Git Hub usamos esta ferramenta para o versionamento de código, criando um repositório no GitHub. Dessa forma, consegui manter um histórico das mudanças, colaborar com outros desenvolvedores do nosso time e gerenciar diferentes versões do projeto de forma eficiente.
+
+Por fim, para hospedar o site e torná-lo acessível ao público, adotamos o GitHub Pages. Essa funcionalidade do GitHub permite que eu publique diretamente do repositório, facilitando o processo de deploy e garantindo que as atualizações sejam refletidas rapidamente no site publicado.
+
 
 ## Arquitetura da solução
 
