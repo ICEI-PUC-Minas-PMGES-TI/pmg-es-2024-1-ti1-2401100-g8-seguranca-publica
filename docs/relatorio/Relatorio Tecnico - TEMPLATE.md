@@ -83,7 +83,10 @@ ENGENHARIA DE SOFTWARE
 > Inicialmente, identificamos os agentes da lei como os primeiros representantes deste bloco social. Nossa aplicação contribuirá significativamente para essas pessoas, uma vez que nossas denúncias serão divididas por regiões, com a possibilidade de detalhamento. Assim, agentes da lei, como Policiais Militares do Estado, poderão conferir as regiões mais afetadas pelo que buscam e, com isso, economizar tempo de busca e aumentar a eficiência das patrulhas diárias. Quanto à parcela de moradores das regiões, identificamos estas pessoas no momento em que percebemos o sentimento de invisibilidade existente entre eles no quesito de atendimento de seus pedidos de melhoria da região onde residem. Ao usarem nosso programa poderão relatar acontecimentos, fatos e ocorrências que sintam necessidade e que irão contribuir para a melhoria de sua qualidade de vida. Com isso, incentivaremos a vontade de expressarem suas opiniões e, adicionalmente, registrarem sua indignação em relação a alguma fragilidade que se encaixe no escopo da denúncia. O elemento chave é que a denúncia será feita por um único usuário e o resultado deste fator é que teremos o maior detalhamento da ocorrência e também poderemos medir sua frequência. Portanto, será visualizado pelos órgãos superiores que é necessário intervir para atender a demanda dos moradores.
 
 > **Exemplo de Persona**
- ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/4e6dfd4f-b7c2-4ec2-babc-247bcae4978d)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/4e6dfd4f-b7c2-4ec2-babc-247bcae4978d)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/50b59827-e1ec-4282-9904-6c17f8462bd0)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/c9678a61-8a0e-4584-91d2-fce26b050e63)
+
 
 
 
@@ -99,9 +102,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Policial                    | preciso de uma forma de localizar as novas zonas de criminalidade      | conseguir posicionar melhor minhas viaturas e ser mais eficientes nas patrulhas diárias |
 |Motorista de aplicativo| poder vizualizar previamente se o destino do meu passageiro é seguro |conseguir buscar meios alternativos de chegar ao endereço e também ter masi cautela |
 |Mãe| de algum modo informar sobre o quanto as ruas perto da escola do meu filho são movimentadas na saída dos "meininos" | para assim colocarem um guarda para regular o trasito |
-|Administrador| Alterar permissões| Permitir que possam administrar contas |
-|Administrador| Alterar permissões| Permitir que possam administrar contas |
-|Administrador| Alterar permissões| Permitir que possam administrar contas |
+
 
 ## Requisitos
 
@@ -112,15 +113,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-001| Tela de login | ALTA |Permitir que nossos uduários façam uso personalizado da nossa plataforma.  |
 |RF-002| Cadastro de Usuário | ALTA |Fazer cadastro do usuário que não tem login|
 |RF-003| Cadastro da denúncia| ALTA |Aba em que o usuário poderá colocar as informações de sua denúncia e fazer a postagem|
-|RF-004| Aba de informações do projeto/sobre nós| ALTA |Região de informações sobre o projeto, origem do nome, quem somos... |
+|RF-004| Ligue Já| ALTA |Usuário terá acesso a telefones úteis em situação de emergência  |
 |RF-005| Perfil do Usuário | ALTA |Mostrará o perfil do usuário jutamente com suas postagens já feitas.|
 |RF-006| Gráfico da Região| MÉDIA | Mostrará um gráfico informando o tipo da denúncia e a frequência com que essa denúncia ocorre naquela região|
-|RF-007| Editar denuncia | MÉDIA |Uma vez que ele fez a denúncia podera editar os dados da mesma caso esteja errada|
-|RF-008| Denuncia anônima | MÉDIA |Devido o carater da denúncia, nosso usuário poderá fazer uma denúnicia anónima visando manter sua segurança|
-|RF-009| Excluir denúnica | MÉDIA |Será possível que exclua uma denúncia que antes foi feita.|
-|RF-010| Botões de verificação da denuncia| MÉDIA |Estes botões ficaram logo abaixo de cada publicação de denuncia e através deles saberemos pela interação dos outros usuários sobre a veracidade da publicação da denúncia.  |
-|RF-011| Busca Região | MÉDIA |Usuário poderá escolher uma região para obter informações da mesma   |
-
+|RF-007| Comentários na postagem | MÉDIA | Será possível a interação entre os usuários aravés de comentários na postagem da denúncia|
 
 
 ### Requisitos não Funcionais
@@ -148,7 +144,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/4919ce41-b784-4529-99d8-2041d8f8b6c2)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/c1620a05-c0ee-40ee-b66c-bd68a27dc8b4)
+
+
 
 
 
@@ -190,10 +188,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  [https://miro.com/XXXXXXX ](https://miro.com/app/board/uXjVNiWnpFo=/)| 
-|Repositório de código | GitHub | [https://github.com/XXXXXXX ](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica.git)| 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | Figma | [https://figma.com/XXXXXXX](https://www.figma.com/file/khROXXMgWYX9XuuoefHuff/Projeto-Facul?type=design&node-id=0%3A1&mode=design&t=ABGQSVNxlnvK9z10-1) | 
+|Processo de Design Thinkgin  | Miro |  [https://miro.com/app/board/uXjVNiWnpFo=/ ](https://miro.com/app/board/uXjVNiWnpFo=/)| 
+|Repositório de código | GitHub | [https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica.git ](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica.git)| 
+|Hospedagem do site | Heroku |  [https://pages.github.com/](https://pages.github.com/) | 
+|Protótipo Interativo | Figma | [https://figma.com/file/khROXXMgWYX9XuuoefHuff/Projeto-Facul?type=design&node-id=0%3A1&mode=design&t=ABGQSVNxlnvK9z10-1](https://www.figma.com/file/khROXXMgWYX9XuuoefHuff/Projeto-Facul?type=design&node-id=0%3A1&mode=design&t=ABGQSVNxlnvK9z10-1) | 
 
 
 
@@ -207,86 +205,55 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Partimos da premissa da criminalidade nas regiões metroplitanas e as ações arcaicas que eram necessárias para realizar uma denúncia, como por exemplo se deslocar ate uma delegacia ou então ligar por rede telefonica. Pensando nisso, em entendimento do porder das redes sociais, implementamos uma aplicação web que permite que o usuário no momento da ocoreência ou então no flagrante dela resgistre dados sobre o ocorrido. A amanipulação destes dados em nossa aplicação gerará o conhecimento das ocorrências daquela região e também a índole das mesmas, a aplicação destes dados com nossas ferramentas trará como retorno os índices de frenquência daquele tipo de denúncia em função da região em que ocorreu, será permitida também a interação entre os usuários para que debatam sobre a denúncia e seus detalhes. Somado a isso, teremos também a possíbilidade de mapeamento das denúncias onde a medida que os usuários fazem suas denúncias um mapa é preenchido assim mostrando as áreas geográficas com maior número de ocorrências, com isso buscamos que essa ferramente seja usada para miticar as ocorrências e também gerar base de dados para a atuação de órgãos responsáveis pela esfera em que a denúncia se encaixa.
 
 ## Tecnologias Utilizadas
+>Neste trabalho utilizamos de várias tecnologias e ferramentas para criar uma aplicação completa e funcional. Primeiramente, utillizamos HTML para estruturar o conteúdo do site, garantindo que todos os elementos necessários estivessem presentes. Com CSS, estilizamos a página, aplicando design e layout que proporcionam uma boa experiência visual aos usuários.
 
-......  COLOQUE AQUI O SEU TEXTO ......
+>Para adicionar interatividade e funcionalidades dinâmicas ao site, utilizamos JavaScript. Com essa linguagem, conseguimos manipular o DOM, responder a eventos de usuário e implementar lógica complexa no front-end. Além disso, usamos o localStorage para armazenar dados localmente no navegador do usuário, permitindo que informações persistam entre sessões, como preferências de usuário ou estado de formulários.
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+>Para desenvolver o projeto, utilizamos o Visual Studio Code, um editor de código robusto e com diversas extensões que facilitaram trabalho, como auto-complete, debugging e integração com Git. Em relação ao Git Hub usamos esta ferramenta para o versionamento de código, criando um repositório no GitHub. Dessa forma, consegui manter um histórico das mudanças, colaborar com outros desenvolvedores do nosso time e gerenciar diferentes versões do projeto de forma eficiente.
+
+>Por fim, para hospedar o site e torná-lo acessível ao público, adotamos o GitHub Pages. Essa funcionalidade do GitHub permite que eu publique diretamente do repositório, facilitando o processo de deploy e garantindo que as atualizações sejam refletidas rapidamente no site publicado.
+
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/b6421566-245a-4042-9997-d016393584b0)
 
 
 # Avaliação da Aplicação
+>Nesta aplicação, um cenário ideal para testes seria a implementação em um condomínio de grande porte. Com essa perspectiva, temos os seguintes elementos: uma sociedade baseada em cidadania, estruturas civis, interações humanas e políticas internas. Com esses elementos, seria possível simular uma sociedade integrada a nível federal, permitindo testar a funcionalidade e eficiência da ferramenta.
+>No futuro, após um período determinado de uso, seria interessante disponibilizar os dados para órgãos como a Polícia Militar e a Defesa Civil. O objetivo seria analisar e formular opiniões sobre a utilidade da ferramenta para a manutenção e mitigação dos casos apresentados nas denúncias. Dessa forma, teríamos dados concretos para análise e poderíamos realizar as alterações necessárias na aplicação, visando disponibilizá-la para um teste mais elaborado ou até mesmo aplicá-la publicamente.
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
+> 1° caso de teste:Realização da Denúncia
+> Descrição: Usuário realizar denúncias e as mesmas apareceram na página home.
 > 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
+> 2° caso de teste:Detalhes da Denúncia
+> Descrição:Na página home verificar se os detalhes das denúncias aparecem corretamente.
 > 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+> 3° caso de teste:Capacidade
+> Descrição: Verificar como a página de home de comporta com a inserção de quantidade anormal de denúncias por tempo.
+
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+>1° caso de teste: Verificamos que mesmo com algum campo da denúncia faltando preenchimento a mesma ainda é registrada. No entanto vale ressaltar que nem sempre em uma situação de desconforto não se sabe dados como endereço exato do local de ocorrÊncia da denúncia, no entanto não descarta a necessidade de reporte. Verificaremos a opção de acesso ao local exato onde o dispositivo que realiza a denúncia se encontra.
 
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+>2° caso de teste: Tivemos bons resultados, todos os detalhes são exibidos com clareza e corretamente. Unico ponto a atentar é o fato de quando abribos uma aba de descrição, todas as mesmas abas abrem juntas. Entraremos com o estudo da estrutura usada para realizar a correção. 
+
+>3° caso de teste: Observamos que mesmo com a limitação de 5MB fornecidade pelo local storage o grande número de denúncias não afetou nenhum tipo de característica do site.
 
 
 # Referências
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+> TOTVS. Saiba como transformar sua empresa em um negócio ágil! Disponível em: https://www.totvs.com/blog/negocios/metodologia-agil/. Acesso em: 11 jun. 2024.
+> SCRUM.ORG. The Art of Product Backlog Refinement. Disponível em: https://www.scrum.org/resources/blog/art-product-backlog-refinement. Acesso em: 25 març. 2024.
+> SCRUM.ORG. The Scrum Process Explained. Disponível em: https://www.scrum.org/resources/blog/scrum-process-explained. Acesso em: 01 jun. 2024.
+> HIGHSMITH, Jim. Agile Project Management: Creating Innovative Products. 2. ed. Boston: Addison-Wesley, 2009.
+> SOMMERVILLE, Ian. Engenharia de Software. 10. ed. São Paulo: Pearson, 2011.
