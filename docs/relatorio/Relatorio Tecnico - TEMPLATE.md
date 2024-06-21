@@ -208,67 +208,42 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > Partimos da premissa da criminalidade nas regiões metroplitanas e as ações arcaicas que eram necessárias para realizar uma denúncia, como por exemplo se deslocar ate uma delegacia ou então ligar por rede telefonica. Pensando nisso, em entendimento do porder das redes sociais, implementamos uma aplicação web que permite que o usuário no momento da ocoreência ou então no flagrante dela resgistre dados sobre o ocorrido. A amanipulação destes dados em nossa aplicação gerará o conhecimento das ocorrências daquela região e também a índole das mesmas, a aplicação destes dados com nossas ferramentas trará como retorno os índices de frenquência daquele tipo de denúncia em função da região em que ocorreu, será permitida também a interação entre os usuários para que debatam sobre a denúncia e seus detalhes. Somado a isso, teremos também a possíbilidade de mapeamento das denúncias onde a medida que os usuários fazem suas denúncias um mapa é preenchido assim mostrando as áreas geográficas com maior número de ocorrências, com isso buscamos que essa ferramente seja usada para miticar as ocorrências e também gerar base de dados para a atuação de órgãos responsáveis pela esfera em que a denúncia se encaixa.
 
 ## Tecnologias Utilizadas
-Neste trabalho utilizamos de várias tecnologias e ferramentas para criar uma aplicação completa e funcional. Primeiramente, utillizamos HTML para estruturar o conteúdo do site, garantindo que todos os elementos necessários estivessem presentes. Com CSS, estilizamos a página, aplicando design e layout que proporcionam uma boa experiência visual aos usuários.
+>Neste trabalho utilizamos de várias tecnologias e ferramentas para criar uma aplicação completa e funcional. Primeiramente, utillizamos HTML para estruturar o conteúdo do site, garantindo que todos os elementos necessários estivessem presentes. Com CSS, estilizamos a página, aplicando design e layout que proporcionam uma boa experiência visual aos usuários.
 
-Para adicionar interatividade e funcionalidades dinâmicas ao site, utilizamos JavaScript. Com essa linguagem, conseguimos manipular o DOM, responder a eventos de usuário e implementar lógica complexa no front-end. Além disso, usamos o localStorage para armazenar dados localmente no navegador do usuário, permitindo que informações persistam entre sessões, como preferências de usuário ou estado de formulários.
+>Para adicionar interatividade e funcionalidades dinâmicas ao site, utilizamos JavaScript. Com essa linguagem, conseguimos manipular o DOM, responder a eventos de usuário e implementar lógica complexa no front-end. Além disso, usamos o localStorage para armazenar dados localmente no navegador do usuário, permitindo que informações persistam entre sessões, como preferências de usuário ou estado de formulários.
 
-Para desenvolver o projeto, utilizamos o Visual Studio Code, um editor de código robusto e com diversas extensões que facilitaram trabalho, como auto-complete, debugging e integração com Git. Em relação ao Git Hub usamos esta ferramenta para o versionamento de código, criando um repositório no GitHub. Dessa forma, consegui manter um histórico das mudanças, colaborar com outros desenvolvedores do nosso time e gerenciar diferentes versões do projeto de forma eficiente.
+>Para desenvolver o projeto, utilizamos o Visual Studio Code, um editor de código robusto e com diversas extensões que facilitaram trabalho, como auto-complete, debugging e integração com Git. Em relação ao Git Hub usamos esta ferramenta para o versionamento de código, criando um repositório no GitHub. Dessa forma, consegui manter um histórico das mudanças, colaborar com outros desenvolvedores do nosso time e gerenciar diferentes versões do projeto de forma eficiente.
 
-Por fim, para hospedar o site e torná-lo acessível ao público, adotamos o GitHub Pages. Essa funcionalidade do GitHub permite que eu publique diretamente do repositório, facilitando o processo de deploy e garantindo que as atualizações sejam refletidas rapidamente no site publicado.
+>Por fim, para hospedar o site e torná-lo acessível ao público, adotamos o GitHub Pages. Essa funcionalidade do GitHub permite que eu publique diretamente do repositório, facilitando o processo de deploy e garantindo que as atualizações sejam refletidas rapidamente no site publicado.
 
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/b6421566-245a-4042-9997-d016393584b0)
 
 
 # Avaliação da Aplicação
+>Nesta aplicação, um cenário ideal para testes seria a implementação em um condomínio de grande porte. Com essa perspectiva, temos os seguintes elementos: uma sociedade baseada em cidadania, estruturas civis, interações humanas e políticas internas. Com esses elementos, seria possível simular uma sociedade integrada a nível federal, permitindo testar a funcionalidade e eficiência da ferramenta.
+>No futuro, após um período determinado de uso, seria interessante disponibilizar os dados para órgãos como a Polícia Militar e a Defesa Civil. O objetivo seria analisar e formular opiniões sobre a utilidade da ferramenta para a manutenção e mitigação dos casos apresentados nas denúncias. Dessa forma, teríamos dados concretos para análise e poderíamos realizar as alterações necessárias na aplicação, visando disponibilizá-la para um teste mais elaborado ou até mesmo aplicá-la publicamente.
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> 1° caso de teste:Realização da Denúncia
+> Descrição: Usuário realizar denúncias e as mesmas apareceram na página home.
+> 2° caso de teste:Detalhes da Denúncia
+> Descrição:Na página home verificar se os detalhes das denúncias aparecem corretamente.
+> 3° caso de teste:Capacidade
+> Descrição: Verificar como a página de home de comporta com a inserção de quantidade anormal de denúncias por tempo.
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+1° caso de teste: Verificamos que mesmo com algum campo da denúncia faltando preenchimento a mesma ainda é registrada. No entanto vale ressaltar que nem sempre em uma situação de desconforto não se sabe dados como endereço exato do local de ocorrÊncia da denúncia, no entanto não descarta a necessidade de reporte. Verificaremos a opção de acesso ao local exato onde o dispositivo que realiza a denúncia se encontra.
 
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+2° caso de teste: Tivemos bons resultados, todos os detalhes são exibidos com clareza e corretamente. Unico ponto a atentar é o fato de quando abribos uma aba de descrição, todas as mesmas abas abrem juntas. Entraremos com o estudo da estrutura usada para realizar a correção. 
+
+3° caso de teste: Observamos que mesmo com a limitação de 5MB fornecidade pelo local storage o grande número de denúncias não afetou nenhum tipo de característica do site.
 
 
 # Referências
