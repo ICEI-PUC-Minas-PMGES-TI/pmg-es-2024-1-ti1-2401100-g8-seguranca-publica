@@ -231,19 +231,21 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 > 1° caso de teste:Realização da Denúncia
 > Descrição: Usuário realizar denúncias e as mesmas apareceram na página home.
+> 
 > 2° caso de teste:Detalhes da Denúncia
 > Descrição:Na página home verificar se os detalhes das denúncias aparecem corretamente.
+> 
 > 3° caso de teste:Capacidade
 > Descrição: Verificar como a página de home de comporta com a inserção de quantidade anormal de denúncias por tempo.
 
 
 ## Registros de Testes
 
-1° caso de teste: Verificamos que mesmo com algum campo da denúncia faltando preenchimento a mesma ainda é registrada. No entanto vale ressaltar que nem sempre em uma situação de desconforto não se sabe dados como endereço exato do local de ocorrÊncia da denúncia, no entanto não descarta a necessidade de reporte. Verificaremos a opção de acesso ao local exato onde o dispositivo que realiza a denúncia se encontra.
+>1° caso de teste: Verificamos que mesmo com algum campo da denúncia faltando preenchimento a mesma ainda é registrada. No entanto vale ressaltar que nem sempre em uma situação de desconforto não se sabe dados como endereço exato do local de ocorrÊncia da denúncia, no entanto não descarta a necessidade de reporte. Verificaremos a opção de acesso ao local exato onde o dispositivo que realiza a denúncia se encontra.
 
-2° caso de teste: Tivemos bons resultados, todos os detalhes são exibidos com clareza e corretamente. Unico ponto a atentar é o fato de quando abribos uma aba de descrição, todas as mesmas abas abrem juntas. Entraremos com o estudo da estrutura usada para realizar a correção. 
+>2° caso de teste: Tivemos bons resultados, todos os detalhes são exibidos com clareza e corretamente. Unico ponto a atentar é o fato de quando abribos uma aba de descrição, todas as mesmas abas abrem juntas. Entraremos com o estudo da estrutura usada para realizar a correção. 
 
-3° caso de teste: Observamos que mesmo com a limitação de 5MB fornecidade pelo local storage o grande número de denúncias não afetou nenhum tipo de característica do site.
+>3° caso de teste: Observamos que mesmo com a limitação de 5MB fornecidade pelo local storage o grande número de denúncias não afetou nenhum tipo de característica do site.
 
 
 # Referências
