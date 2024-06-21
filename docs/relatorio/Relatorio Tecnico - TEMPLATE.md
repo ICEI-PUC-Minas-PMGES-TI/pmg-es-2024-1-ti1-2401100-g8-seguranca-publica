@@ -252,9 +252,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+> TOTVS. Saiba como transformar sua empresa em um negócio ágil! Disponível em: https://www.totvs.com/blog/negocios/metodologia-agil/. Acesso em: 11 jun. 2024.
+> SCRUM.ORG. The Art of Product Backlog Refinement. Disponível em: https://www.scrum.org/resources/blog/art-product-backlog-refinement. Acesso em: 25 març. 2024.
+> SCRUM.ORG. The Scrum Process Explained. Disponível em: https://www.scrum.org/resources/blog/scrum-process-explained. Acesso em: 01 jun. 2024.
+> HIGHSMITH, Jim. Agile Project Management: Creating Innovative Products. 2. ed. Boston: Addison-Wesley, 2009.
+> SOMMERVILLE, Ian. Engenharia de Software. 10. ed. São Paulo: Pearson, 2011.
