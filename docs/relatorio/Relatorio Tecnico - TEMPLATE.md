@@ -10,8 +10,7 @@ ENGENHARIA DE SOFTWARE
 ## Participantes
 - Luiz Gustavo Fagundes Teixeira
 - Emanoel Gonçalves Maia
-- Heleno Vasconcelos Rodrigues
-- Otávio Rodrigues Nunes Santos
+- Othávio Rodrigues Nunes Santos
 - Gabriel Assis
 # Estrutura do Documento
 
@@ -173,7 +172,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|-|
 |Luiz | Cadastro de Denúncia | Busca Denúncia e Tela Home| 
 |Othavio| Cadastro de User | Gráficos de Denúncias |
-|Gabriel | Cadastro de Denuncia | Editar Denúncia | 
+|Gabriel | Tela de Perfil | Comentarios de Denúncia | 
 |Emanuel| Tela de Login | Mapa de Denúncia |
 
 
