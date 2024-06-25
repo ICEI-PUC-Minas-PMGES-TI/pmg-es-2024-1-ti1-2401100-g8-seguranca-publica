@@ -171,11 +171,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |Integrante| Sprint 2  | Sprint 3|
 |--|-------------------------------------------------------|-|
-|Luiz | Tela de login | Gráficos e Busca Região| 
-|Othavio| Cadastro de User | Denuncia Anônima | 
-|Eleno| Sobre nós | Excluir denúnica | 
+|Luiz | Cadastro de Denúncia | Busca Denúncia e Tela Home| 
+|Othavio| Cadastro de User | Gráficos de Denúncias |
 |Gabriel | Cadastro de Denuncia | Editar Denúncia | 
-|Emanuel| Aba de Perfil | Botão de Verificação da Denúncia | 
+|Emanuel| Tela de Login | Mapa de Denúncia |
 
 
 
