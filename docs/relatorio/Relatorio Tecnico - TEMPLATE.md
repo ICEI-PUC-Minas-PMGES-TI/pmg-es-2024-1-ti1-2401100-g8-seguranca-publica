@@ -37,7 +37,7 @@ ENGENHARIA DE SOFTWARE
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
+
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
@@ -197,7 +197,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 > Todo controle de Versão esta sendo feito através do Git Hub
 
-# **############## SPRINT 1 ACABA AQUI #############**
+
 
 
 # Projeto da Solução
@@ -222,6 +222,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 # Avaliação da Aplicação
 >Nesta aplicação, um cenário ideal para testes seria a implementação em um condomínio de grande porte. Com essa perspectiva, temos os seguintes elementos: uma sociedade baseada em cidadania, estruturas civis, interações humanas e políticas internas. Com esses elementos, seria possível simular uma sociedade integrada a nível federal, permitindo testar a funcionalidade e eficiência da ferramenta.
 >No futuro, após um período determinado de uso, seria interessante disponibilizar os dados para órgãos como a Polícia Militar e a Defesa Civil. O objetivo seria analisar e formular opiniões sobre a utilidade da ferramenta para a manutenção e mitigação dos casos apresentados nas denúncias. Dessa forma, teríamos dados concretos para análise e poderíamos realizar as alterações necessárias na aplicação, visando disponibilizá-la para um teste mais elaborado ou até mesmo aplicá-la publicamente.
+
+![Adicionar nome do projeto](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g8-seguranca-publica/assets/154926815/707ca9c8-98a3-4012-a8d0-8ef87e3c973a)
 
 
 ## Plano de Testes
