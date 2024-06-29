@@ -1,7 +1,7 @@
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: -14.2350, lng: -51.9253 }, // Centro aproximado do Brasil
-        zoom: 4
+        zoom: 6
     });
 
     window.searchLocation = function () {
